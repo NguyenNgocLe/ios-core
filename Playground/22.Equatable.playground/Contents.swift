@@ -20,3 +20,9 @@ print(result)
 //Output: False
 let result2 = exists(item: 100, elements: [1, 2, -100])
 print(result2)
+
+// Output: True
+let result3 = exists(item: CGPoint(x: 0, y: 0), elements: [CGPoint(x: 0, y: 0),
+                                             CGPoint(x: 0, y: 1),
+                                             CGPoint(x: 0, y: 2)])
+print(result3)
